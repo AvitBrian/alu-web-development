@@ -7,7 +7,7 @@
     right: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ header{
     
 }
 .navitems > a{
-    margin: 0 30px;
+    padding: 0 30px;
     font-size: 12px;
     transition: all 1s;
 }
@@ -28,12 +28,12 @@ header{
 .section1{
     padding: 0;
     margin: 0;
-    height: 85.5vh;
+    height:93vh;
     margin: 0 auto;
 }
 
 .maintitle >h1{
-    margin-top: 70px;
+    padding-top: 200px;
     font-size: 80px; 
     font-weight: 700px;  
 
@@ -42,14 +42,14 @@ header{
 .mainsubtitle >p{
     font-size: 14px;
     display: inline-block;
-    margin:  0 37px 0px 49px;
+    padding:  0 37px 100px 49px;
     min-height: fit-content;
    
     
     
 }
 .button--header{
-    margin-top: 68px;
+    
     width: 200px;
     height: 44px;
     padding: 13px 20px;
@@ -57,7 +57,7 @@ header{
     background-color: #C271FF;
     border-radius: 30px;
     border: none;
-    margin-bottom: 170px;
+
     
 }
 .title--profiles > h2 {
@@ -65,6 +65,7 @@ header{
     line-height: 30px;
     font-weight: lighter;
     padding-bottom: 4rem;
+    padding-top: 2%;
 }
 
 .title--profiles > h2::before {
@@ -78,13 +79,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
+    
     margin-left: 117px;
     margin-right: 114px;
     
 }
 .container1 > .container{
-    padding: 0 20px;
+    padding: 50px 20px;
     min-height:77px;
     width: 100%;
 
