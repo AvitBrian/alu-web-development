@@ -33,9 +33,10 @@ header{
 }
 
 .maintitle >h1{
-    padding-top: 200px;
-    font-size: 80px; 
+    padding-top: 250px;
+    font-size: 120px; 
     font-weight: 700px;  
+    text-shadow: 0 1px 7px #C271FF ;
 
 }
 
@@ -64,7 +65,7 @@ header{
     font-size: 28px;
     line-height: 30px;
     font-weight: lighter;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-top: 2%;
 }
 
@@ -85,9 +86,10 @@ header{
     
 }
 .container1 > .container{
-    padding: 50px 20px;
+    padding: 0px 20px;
     min-height:77px;
     width: 100%;
+    font-size: 14px;
 
 }
 
