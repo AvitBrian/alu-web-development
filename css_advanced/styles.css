@@ -1,5 +1,9 @@
 
-
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    perspective: 11px;
+}
 
 .background{
     position: absolute;
@@ -9,6 +13,9 @@
     width: 100%;
     min-height: 100vh;
     background-size: cover;
+    transform-style:preserve-3d ;
+    transform: translateZ(-50px) scale(6)
+
 }
 
 header{
@@ -80,9 +87,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     margin-left: 117px;
     margin-right: 114px;
+
     
 }
 .container1 > .container{
@@ -90,6 +97,7 @@ header{
     min-height:77px;
     width: 100%;
     font-size: 14px;
+
 
 }
 
