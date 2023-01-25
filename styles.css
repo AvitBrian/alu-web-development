@@ -1,8 +1,50 @@
+html{
+    background-color: black; 
+    color:#FFFFFF;  
+    font-family: 'Source Sans Pro', sans-serif; 
+    width: 100vw; 
+    overflow-x: hidden;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    scroll-behavior: smooth !important;
+    overflow-y: scroll;
+
+    
+
+}
+
+*{
+    color:#FFFFFF;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
 
 .wrapper{
     height: 100vh;
     overflow-y: auto;
     perspective: 11px;
+    scroll-behavior: smooth ;
+
+    
+}
+.logo--nav{
+
+    transition: all .5s;
+
+}
+.logo--nav:hover{
+    transform: scale(1.2);
+    
+        border-radius: 100%;
+
+
 }
 
 .background{
@@ -43,19 +85,57 @@ header{
     padding-top: 250px;
     font-size: 120px; 
     font-weight: 700px;  
-    text-shadow: 0 1px 7px #C271FF ;
+    /* text-shadow: 0 1px 7px #C271FF ; */
+    animation: glow .5s ease-in-out 1s alternate infinite;
 
 }
+@keyframes glow {
+    0%{
+        text-shadow: 0 1px 3px #C271FF ;
+    }
+    100%{
+        text-shadow: 0 1px 14px #C271FF ;
+
+    }
+    
+}
+
 
 .mainsubtitle >p{
     font-size: 14px;
     display: inline-block;
     padding:  0 37px 100px 49px;
     min-height: fit-content;
-   
-    
+}
+
+.mainsubtitle > .para1{
+    animation: bounce 1s ease-in-out 1s  alternate infinite;
+}
+.mainsubtitle > .para2{
+    animation: bounce 1s ease-in-out 1s alternate infinite;
+
+}
+.mainsubtitle > .para3{
+    animation: bounce 1s ease-in-out 1s alternate infinite;
+
+}
+
+
+@keyframes bounce {
+    0%{
+        transform:translateY(0%) ;
+
+    }
+    50%{
+        transform:translateY(.5%) ;
+
+    }
+    100%{
+        transform:translateY(0%) ;
+    }
     
 }
+
 .button--header{
     
     width: 200px;
@@ -65,8 +145,14 @@ header{
     background-color: #C271FF;
     border-radius: 30px;
     border: none;
+    transition:all .2s;
+    cursor: pointer;
 
     
+}
+.button--header:hover{
+    transform: translateY(-5px) ;
+
 }
 .title--profiles > h2 {
     font-size: 28px;
@@ -302,6 +388,12 @@ margin-bottom: 14px;
     border: none;
     margin-bottom: 52px;
     margin-top: 85px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.section4 > button:hover{
+    transform: translateY(-5px) ;
 
 }
 
@@ -374,25 +466,21 @@ footer > p{
 
 }
 
-html{
-    background-color: black; 
-    color:#FFFFFF;  
-    font-family: 'Source Sans Pro', sans-serif; 
-    width: 100vw; 
-    overflow-x: hidden;
-    margin: auto;
-    text-align: center;
-    height: 100vh;
+.arrow{
+    z-index: 1;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: #C271FF;
+    margin:auto;
+    font-size: 40px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    box-shadow: 0 1px 5px rgba(161, 139, 156, 0.596);
+    
+}
 
-}
-*{
-    color:#FFFFFF;
-    padding: 0;
-    margin: 0; 
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-    color:#FFFFFF;
-
-}
