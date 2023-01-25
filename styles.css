@@ -31,6 +31,7 @@ a{
     overflow-y: auto;
     perspective: 11px;
     scroll-behavior: smooth ;
+    overflow-x:hidden;
 
     
 }
