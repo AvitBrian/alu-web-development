@@ -1,0 +1,347 @@
+.background{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:35px 165px 0px 172px;
+    
+}
+.navitems > a{
+    margin: 0 52px;
+    font-size: 12px;
+    transition: all 1s;
+}
+.navitems > a:hover{
+    color:#C271FF; 
+}
+.section1{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.maintitle >h1{
+    margin-top: 155px;
+    font-size: 140px; 
+    font-weight: 700px; 
+    
+
+}
+.mainsubtitle >p{
+    font-size: 16px;
+    display: inline-block;
+    margin:  0 57px 38px 59px;
+    height: fit-content;
+   
+    
+    
+}
+.button--header{
+    margin-top: 38px;
+    width: 200px;
+    height: 44px;
+    padding: 13px 20px;
+    font-size: 14px;
+    background-color: #C271FF;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 260px;
+    
+}
+.title--profiles > h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: lighter;
+}
+
+.title--profiles > h2::before {
+    content: 'Learn ';
+    color: #C271FF;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 87px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+    margin-left: 217px;
+    margin-right: 214px;
+    margin-bottom: 98px;
+}
+.container1 > .container{
+    margin: 0 139px;
+    height:237px;
+    width: 150px;
+
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C271FF;
+    width: 100%;
+    min-height: 392px;
+    
+}
+
+.section2 > blockquote{
+    width: 730px;
+
+
+}
+.wording1{
+    margin-left: 2rem;
+    text-align: start;
+    line-height: 34px;
+    margin-top: 108px;
+
+}
+.wording1 > p {
+    
+    font-weight: bold;
+}
+.wording1 > p:last-child{
+    line-height: 5px;
+    font-weight: normal;
+    font-style: italic;
+
+    padding-bottom: 124px;
+}
+.section3{
+    background-color: #FFFFFF;
+    padding: 87px 106px;
+    width: 100%;
+    
+}
+.section3 > h2{
+    color:#C271FF;
+    margin-bottom: 75px;
+}
+.section3 > h2 > span{
+    color: black;
+    font-weight: lighter;
+    
+}
+.section3 > .container2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.container2 > .videoitem {
+    margin: 0 31px;
+    padding: 0px;
+    
+}
+.container2>.videoitem> .video{
+    position: relative;
+}
+.container2 > .videoitem >.video>.play{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin: auto
+
+
+}
+.videoitem{
+    width: 255px;
+    height: 335px;
+}
+.videoitem > .videoitem-content>.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.videoitem >.videoitem-content> div > p{
+    display: flex;
+    line-height: 24px;
+    color:#C271FF;
+    font-weight: bolder;
+}
+.videoitem > .videoitem-content>h2{
+        line-height: 24px;
+
+        color: black;
+
+}
+.videoitem >.videoitem-content> p{
+        line-height: 24px;
+        color: black;
+        margin-bottom: 15px;
+        margin-top: 8px;
+
+}
+.videoitem >.videoitem-content> p{
+        color: black;
+
+}
+.videoitem > .videoitem-content> .mini-profile > h3{ 
+    color:#C271FF;
+    margin-left: 13px;
+
+}
+.videoitem > .videoitem-content> .mini-profile{ 
+display: flex;
+align-items: center;
+margin-bottom: 14px;
+}
+.videoitem > .videoitem-content >.mini-profile img{
+        width: 30px;
+    height: 30px;
+}
+.videoitem-content{
+    padding:  18px 13px;
+    text-align: start;
+}
+
+.section4 {
+    color:#071629;
+    min-height: 502px;
+}
+.section4  > h2{
+    color:#C271FF;
+    margin-bottom: 58px;
+    margin-top: 70px;
+}
+.section4 > h2 > span{
+    color: white;
+    font-weight: 300;
+
+}
+
+.section4 > .container3{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 168px;
+    margin-left:  164px;
+    margin-right: 164px;
+}
+.section4 > .container3 > .container{
+ width: 257px;
+ height: 153px;
+
+}
+.section4 > .container3 > .container > h2{
+    margin-bottom: 13px;
+    margin-top: 26px;
+    font-weight: 600;
+    
+}
+.section4 > button{
+    width: 200px;
+    height: 44px;
+    padding: 13px 20px;
+    font-size: 14px;
+    background-color: #C271FF;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 52px;
+    margin-top: 85px;
+
+}
+
+.section5{
+    background-color: #FFFFFF;
+    padding: 87px 106px;
+    width: 100%;
+    
+}
+
+.section5 > h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.section5 > section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section5 > section > div{
+    width: 350px;
+    height: 192px;
+    margin: 74px 220px;
+}
+.section5 > section > div > h2 {
+    color: black;
+}
+.section5 > section > div > p {
+    color: #07162980;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+    text-align: start;
+}
+
+footer{
+    background-color: #071629;
+    height: 249px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer > .container4 {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    width: 100%;
+    padding: 29px 240px 0px 165px;
+}
+footer > .container4 > div> a{
+    margin: 0 20px;
+}
+
+footer > p{
+    padding-top: 75px;
+    padding-bottom: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 0.35;
+
+}
+
+html{
+    background-color: black; 
+    color:#FFFFFF;  
+    font-family: 'Source Sans Pro', sans-serif; 
+    width: 100vw; 
+    overflow-x: hidden;
+    margin: auto;
+    text-align: center;
+
+}
+*{
+    color:#FFFFFF;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
